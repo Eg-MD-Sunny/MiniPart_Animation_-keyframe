@@ -1,67 +1,61 @@
-.animation{
-	width:1000px;
-	height: 700px;
-	margin:0px auto;
-	background-color: #f2f2f2;
-	position: relative;
+.animation {
+  width: 1000px;
+  height: 700px;
+  margin: 0px auto;
+  background-color: #f2f2f2;
+  position: relative;
 }
-.animation_test{
-	position: absolute;
-	top: 200px;
-	left: 0px;
-	animation: animation_test 6s linear 0s infinite alternate;
+.animation_test {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  animation: animation_test 6s linear 0s infinite alternate;
 }
-.animation_test:hover{
-	animation: animation_test 6s linear 0s infinite alternate paused;
-}
-
-@keyframes animation_test{
-
-	10%{
-		background-color: yellow;
-		left: 100px;
-		width: 300px;
-		height: 300px;
-	}
-	20%{
-		background-color: red;
-		left: 200px;
-	}
-	30%{
-		background-color: green;
-		left: 300px;
-	}
-	40%{
-		background-color: orange;
-		left: 400px;
-	}
-	50%{
-		background-color: gray;
-		left: 450px;
-	}
-	60%{
-		background-color: aqua;
-		left: 480px;
-	}
-	70%{
-		background-color: blue;
-		left: 500px;
-	}
-	80%{
-		background-color: black;
-		left: 600px;
-	}
-	90%{
-		background-color: white;
-		left: 700px;
-	}
-	100%{
-		background-color: purple;
-		left: 800px;
-	}
+.animation_test:hover {
+  animation: animation_test 6s linear 0s infinite alternate paused;
 }
 
-
-
-
-
+@keyframes animation_test {
+  10% {
+    background-color: yellow;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+  }
+  20% {
+    background-color: red;
+    left: 200px;
+  }
+  30% {
+    background-color: green;
+    left: 300px;
+  }
+  40% {
+    background-color: orange;
+    left: 400px;
+  }
+  50% {
+    background-color: gray;
+    left: 450px;
+  }
+  60% {
+    background-color: aqua;
+    left: 480px;
+  }
+  70% {
+    background-color: blue;
+    left: 500px;
+  }
+  80% {
+    background-color: black;
+    left: 600px;
+  }
+  90% {
+    background-color: white;
+    left: 700px;
+  }
+  100% {
+    background-color: purple;
+    left: 800px;
+  }
+}
